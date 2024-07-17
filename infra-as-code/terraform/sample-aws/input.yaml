@@ -1,26 +1,26 @@
 # Replace with the name which you want to give to your EKS cluster
 # Cluster name can have only lowercase alphanumeric characters and hyphens
 # For example: "digit-demo"
-cluster_name: "test-demo"
+cluster_name: "mamecoumbacluster"
 
 # Replace with ssh key name you want
 ssh_key_name: "test-demo-ssh-key" 
 
 # Replace with public key which you want to add in your EC2 machines # ssh key which you want to add in your EC2 machines
-public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEyfjLaKskpv90BCvgVm2IFtf5V+B41YM7pSt73QID5/lByMuLRIcBum9n48A/BlxhkyI4TuF1GHXFKJju7UZA9ybVkhugpJhqFp+rjVcXNgYbeGToYcLRE88aFbhNDw9ZtSJF5Kd2fZUT9Vj7cMi1LqRLAprOp8FZWpdn1+QBDTJQVPUzWux0hmh56L00fjxTIMPhTbH8EQcyd4SVBuJvAO4Gs3/oNLOUhyA4yF49/bvY2x8Y4v9IDZgnHqTuAMeMQNn+nPoxP1eNVwOM/3Lx/a505uvMiim/cLSNFmn6sozo8VSwsK0lJGiiGaZiV7GLGEwVL+QA8/pDxXId5Rxb"
+public_ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCb7oMHJHfeVw1FnakxP75uvKH4w01d6/imY2BJrDEI/uz5rfWIptc8AWq8nQ91CAiBBe3i9xQ4GsnxWfvxUPYrvEvi9xa4tnMmSYQRDSaHnaOEeG8PLcs/3PUuNd412ciiPTvS/bLlQp/EgVV/dKbra7Bhew5hMoyQAUMs51ayXntjGh5GWuHFbLuF2h8RvGKs1gVaRZ2AKmiPa4y4YoKjUyWyJkX10zQJ/iBAHn/73owlOIWnX0dwJW5RoK/p53zXpCVQlCsOXCHaPjSQ3KGieZxsnrcIAXNAY4vgKD5wd8Hv1EQWT12i1pBRu5bgCQutuDolEjRVJY0/nWllR/XaHtrRaIBOBvW5HGCmU86WAQKLfnSpj9uMxcC1T2JewiAj/2wnNf0/044uxnP2v3v19DPhCU/qzCsKRrjAHyWn78i7AfoUBpf3+KlAq7skMJYSO8F6X9NPcC+5MUhwJnhPgfjFi7Hboot937G+W9RjcJkIsKvkMEIlWJe3mbqHcuYWbtorBCdOgz6QTxn7eK5KN60NUa4QNt92sUmLCQiDESdHWOIj1NWNeTlWdfun8WaaUls0XCL7eV83pLNTx/9kOjgu7dCmQTfuUu74JKoZeVLOtFxAJ9ddREr/M2R7Vi62Sq0dDiTx3rRC2ePOc7i9DwuAe/9e4JBU6s69X2QpRQ== makane9305@gmail.com"
 
 # Name you want to give to your Database
 # DB name must contain only alphanumeric characters
-db_name: "testdemodb"
+db_name: "mamecoumbadb"
 
 # Replace with DB username you want
 # DB user name must contain only alphanumeric characters
-db_username: "testdemo" 
+db_username: "mamecoumba" 
 
 # Replace with Domain name you want for your web applications
-domain_name: "test-githubactions.digit.org"
+domain_name: "app.obsindustrie-si.sn"
 
 # Replace with the name you want to give to your S3 bucket which is used to store the terraform state
-terraform_state_bucket_name: "test-demo-githubactions-bucket"
+terraform_state_bucket_name: "mamecoumbabucket"
 
 
